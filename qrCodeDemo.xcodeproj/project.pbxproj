@@ -15,9 +15,9 @@
 		622CD0E11BF9B40F007EF546 /* qrCodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 622CD0E01BF9B40F007EF546 /* qrCodeDemoTests.m */; };
 		622CD0EC1BF9B40F007EF546 /* qrCodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 622CD0EB1BF9B40F007EF546 /* qrCodeDemoUITests.m */; };
 		622CD0FB1BF9B4C4007EF546 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 622CD0FA1BF9B4C4007EF546 /* ScanViewController.m */; };
-		622CD0FF1BF9C714007EF546 /* VPScanMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622CD0FE1BF9C714007EF546 /* VPScanMaskView.m */; };
-		622CD1021BF9D89E007EF546 /* VPScanQrCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622CD1011BF9D89E007EF546 /* VPScanQrCodeView.m */; };
-		622CD1051BF9F768007EF546 /* VPScanLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622CD1041BF9F768007EF546 /* VPScanLineView.m */; };
+		6290F8331BFAD51D0054E0FF /* VPScanLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6290F82E1BFAD51D0054E0FF /* VPScanLineView.m */; };
+		6290F8341BFAD51D0054E0FF /* VPScanMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6290F8301BFAD51D0054E0FF /* VPScanMaskView.m */; };
+		6290F8351BFAD51D0054E0FF /* VPScanQrCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6290F8321BFAD51D0054E0FF /* VPScanQrCodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +55,12 @@
 		622CD0ED1BF9B40F007EF546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		622CD0F91BF9B4C4007EF546 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
 		622CD0FA1BF9B4C4007EF546 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
-		622CD0FD1BF9C714007EF546 /* VPScanMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPScanMaskView.h; sourceTree = "<group>"; };
-		622CD0FE1BF9C714007EF546 /* VPScanMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPScanMaskView.m; sourceTree = "<group>"; };
-		622CD1001BF9D89E007EF546 /* VPScanQrCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPScanQrCodeView.h; sourceTree = "<group>"; };
-		622CD1011BF9D89E007EF546 /* VPScanQrCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPScanQrCodeView.m; sourceTree = "<group>"; };
-		622CD1031BF9F768007EF546 /* VPScanLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPScanLineView.h; sourceTree = "<group>"; };
-		622CD1041BF9F768007EF546 /* VPScanLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPScanLineView.m; sourceTree = "<group>"; };
+		6290F82D1BFAD51D0054E0FF /* VPScanLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPScanLineView.h; sourceTree = "<group>"; };
+		6290F82E1BFAD51D0054E0FF /* VPScanLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPScanLineView.m; sourceTree = "<group>"; };
+		6290F82F1BFAD51D0054E0FF /* VPScanMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPScanMaskView.h; sourceTree = "<group>"; };
+		6290F8301BFAD51D0054E0FF /* VPScanMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPScanMaskView.m; sourceTree = "<group>"; };
+		6290F8311BFAD51D0054E0FF /* VPScanQrCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPScanQrCodeView.h; sourceTree = "<group>"; };
+		6290F8321BFAD51D0054E0FF /* VPScanQrCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPScanQrCodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +111,7 @@
 		622CD0C51BF9B40F007EF546 /* qrCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6290F82C1BFAD51D0054E0FF /* VPScanView */,
 				622CD0C91BF9B40F007EF546 /* AppDelegate.h */,
 				622CD0CA1BF9B40F007EF546 /* AppDelegate.m */,
 				622CD0CC1BF9B40F007EF546 /* ViewController.h */,
@@ -121,12 +122,6 @@
 				622CD0C61BF9B40F007EF546 /* Supporting Files */,
 				622CD0F91BF9B4C4007EF546 /* ScanViewController.h */,
 				622CD0FA1BF9B4C4007EF546 /* ScanViewController.m */,
-				622CD0FD1BF9C714007EF546 /* VPScanMaskView.h */,
-				622CD0FE1BF9C714007EF546 /* VPScanMaskView.m */,
-				622CD1001BF9D89E007EF546 /* VPScanQrCodeView.h */,
-				622CD1011BF9D89E007EF546 /* VPScanQrCodeView.m */,
-				622CD1031BF9F768007EF546 /* VPScanLineView.h */,
-				622CD1041BF9F768007EF546 /* VPScanLineView.m */,
 			);
 			path = qrCodeDemo;
 			sourceTree = "<group>";
@@ -155,6 +150,19 @@
 				622CD0ED1BF9B40F007EF546 /* Info.plist */,
 			);
 			path = qrCodeDemoUITests;
+			sourceTree = "<group>";
+		};
+		6290F82C1BFAD51D0054E0FF /* VPScanView */ = {
+			isa = PBXGroup;
+			children = (
+				6290F82D1BFAD51D0054E0FF /* VPScanLineView.h */,
+				6290F82E1BFAD51D0054E0FF /* VPScanLineView.m */,
+				6290F82F1BFAD51D0054E0FF /* VPScanMaskView.h */,
+				6290F8301BFAD51D0054E0FF /* VPScanMaskView.m */,
+				6290F8311BFAD51D0054E0FF /* VPScanQrCodeView.h */,
+				6290F8321BFAD51D0054E0FF /* VPScanQrCodeView.m */,
+			);
+			path = VPScanView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,12 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				622CD0FF1BF9C714007EF546 /* VPScanMaskView.m in Sources */,
+				6290F8341BFAD51D0054E0FF /* VPScanMaskView.m in Sources */,
+				6290F8331BFAD51D0054E0FF /* VPScanLineView.m in Sources */,
 				622CD0CE1BF9B40F007EF546 /* ViewController.m in Sources */,
 				622CD0CB1BF9B40F007EF546 /* AppDelegate.m in Sources */,
-				622CD1021BF9D89E007EF546 /* VPScanQrCodeView.m in Sources */,
+				6290F8351BFAD51D0054E0FF /* VPScanQrCodeView.m in Sources */,
 				622CD0C81BF9B40F007EF546 /* main.m in Sources */,
-				622CD1051BF9F768007EF546 /* VPScanLineView.m in Sources */,
 				622CD0FB1BF9B4C4007EF546 /* ScanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +518,7 @@
 				622CD0F21BF9B40F007EF546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		622CD0F31BF9B40F007EF546 /* Build configuration list for PBXNativeTarget "qrCodeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +527,7 @@
 				622CD0F51BF9B40F007EF546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		622CD0F61BF9B40F007EF546 /* Build configuration list for PBXNativeTarget "qrCodeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +536,7 @@
 				622CD0F81BF9B40F007EF546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
