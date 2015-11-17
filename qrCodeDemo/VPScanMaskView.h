@@ -12,6 +12,7 @@
 @property (assign,nonatomic,readonly) CGFloat maskLeft;
 @property (assign,nonatomic,readonly) CGFloat maskTop;
 @property (assign,nonatomic,readonly) CGFloat maskWidth;
+@property (copy,nonatomic) UIColor* borderColor;
 - (instancetype)initWithFrame:(CGRect)frame scanViewWidth:(CGFloat)width;
 - (void)stopAnimation;
 @end

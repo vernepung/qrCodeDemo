@@ -20,7 +20,7 @@
     frame.size.height -= 64.f;
     
     
-    VPScanQrCodeView *scanView = [[VPScanQrCodeView alloc]initWithFrame:frame];
+    VPScanQrCodeView *scanView = [[VPScanQrCodeView alloc]initWithFrame:frame andMaskViewWidth:222 andBorderColor:[UIColor redColor]];
     [self.view addSubview:scanView];
 }
 

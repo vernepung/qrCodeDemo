@@ -61,11 +61,12 @@
     CGContextAddLineToPoint(context, left, top);
     CGContextSetLineWidth(context, 1.0f / [UIScreen mainScreen].scale);
     CGContextSetRGBStrokeColor(context, 1.0, 1.0, 1.0, 1.0);
+    
     CGContextStrokePath(context);
     
     context = UIGraphicsGetCurrentContext();
     CGContextSetLineWidth(context, 2);
-    CGContextSetRGBStrokeColor(context, 1.0, 1.0, 1.0, 1.0);
+    CGContextSetStrokeColorWithColor(context, self.borderColor.CGColor);
     CGPoint addLines[] =
     {
         CGPointMake(left + 11, top + 1),
